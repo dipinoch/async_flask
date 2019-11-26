@@ -1,28 +1,17 @@
 async_flask
 
-Shane Lynn 15/07/2014
+Originaly modified form https://github.com/shanealynn/async_flask
 
-Updated to Python 3: 19th-May-2018
+How to use 
 
-===========
-
-Test of asynchronous flask communication with web page. 
-
-This repository is a sample flask application that updates a webpage using a background thread for all users connected.
-It is based on the very useful Flask-SocketIO code from Miguel Grinberg.
-
-https://github.com/miguelgrinberg/Flask-SocketIO
-
-To use - please clone the repository and then set up your virtual environment using the requirements.txt file with pip and virtualenv. You can achieve this with:
+Clone the repository and then set up your virtual environment using the requirements.txt file with pip and virtualenv. You can achieve this with:
 
 
-    git clone https://github.com/shanealynn/async_flask
+    git clone 
     cd async_flask
     virtualenv flaskiotest
     ./flaskiotest/Scripts/activate
-    pip install -r requirements.txt  #(or in Windows - sometimes python -m pip install -r requirements.txt )
-
-
+    pip install -r requirements.txt  
 
 Start the application with:
 
